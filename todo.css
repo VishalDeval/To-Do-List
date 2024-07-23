@@ -1,0 +1,105 @@
+.str{
+    background-color: white;
+    height: 40px;
+    width: 400px;
+    filter: drop-shadow(2px 2px 50px rgb(16, 105, 97));
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border: none;
+    font-size: 15px;
+    font-weight: 800;
+    padding-left: 15px;
+}
+
+.arrow{
+    margin-left: 10px;
+    background-color: rgb(167, 165, 165);
+    border-radius: 50%;
+    filter: drop-shadow(5px 5px 10px rgb(167, 165, 165));
+}
+@keyframes vishal{
+    from{
+        transform: translateX(0px);
+        
+    }
+    to{
+        transform: translateX(10px);
+        
+    }
+}
+.arrow:hover{
+    animation: vishal .5s ease-in-out infinite;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap:wrap;
+    background-color: rgb(243, 247, 251);
+    height: 100%;
+    width: 100%;
+}
+.space{
+    background-color: rgb(248, 242, 180);
+    height: 500px;
+    width: 350px;
+    filter: drop-shadow(2px 2px 50px rgb(3, 46, 42));
+    border-radius: 20px;
+    margin: 50px 50px;
+    padding: 20px 20px;
+    font-size: 30px;
+    cursor:default;
+    
+}
+.btn{
+    text-decoration: none;
+    cursor: hand;
+    background-color: rgb(249, 162, 0);
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 60px;
+    text-align: center;
+    padding: 7px 7px;
+    filter: drop-shadow(5px 10px 20px rgb(249, 162, 0));
+    transition: all .1s ease-in-out;
+}
+.btn:hover{
+    scale: 1.1;
+}
+
+p{
+    cursor: hand;
+    background-color: rgb(254, 207, 55);
+    border-radius: 16px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    overflow-wrap: break-word;
+    transition: all .5s ease-in-out;
+    align-items: center;
+    justify-content:space-between;
+    display: flex;
+    padding-left: 10px;
+}
+p:hover{
+    scale: 1.01;
+}
+.image{
+    visibility: hidden;
+    transition-duration: .2s;
+    height: 30px;
+    padding-right: 10px;
+}
+.image:hover{
+    scale: 1.1;
+}
+h1{
+    text-align: center;
+    background-color: rgb(243, 247, 251) ;
+    margin: 0px;
+    padding: 10px;
+}
